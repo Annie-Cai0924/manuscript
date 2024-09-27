@@ -1,0 +1,52 @@
+body { background-color: black;
+    color: rgb(255, 255, 255);
+    font-family:Baskerville;
+padding-left: 30px;}
+
+.heading1{
+    padding-left: 300px;
+    font-size: 80px;
+    font-style: bold;
+}
+.heading2{
+    font-size: 80px;
+    padding-left:800px;
+    font-style: bold;
+}
+.intro{
+    padding-left:30px;
+}
+
+h2{font-size: 40px;}
+
+.book{text-align: center;
+font-size: 30px;}
+
+h3{font-size:30px
+}
+section{padding-top: 30px;}
+
+.page1{
+    padding-left: 600px;
+    max-width: 90ch;
+}
+
+.page2{
+    padding-left: 100px;
+    padding-right:300px;
+    max-width: 90ch;
+}
+
+.page3{
+    padding-left: 600px;
+    max-width: 90ch;
+}
+.page4{
+    padding-left: 100px;
+    padding-right:300px;
+    max-width: 90ch;
+}
+
+p{
+    text-indent: 50px;
+}
