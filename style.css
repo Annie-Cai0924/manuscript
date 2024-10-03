@@ -1,52 +1,135 @@
-body { background-color: black;
+/* 全局样式 */
+body { 
+    background-color: rgb(246, 228, 208); 
+    color: rgb(0, 0, 0); 
+    font-family: 'Baskerville', serif; 
+    line-height: 1.6; 
+    margin: 0;
+}
+
+
+header {
+    background-color: #283106;  
+    padding: 50px 0; 
+    padding-left: 50px;
+    /* text-align: center; */
+   
+}
+
+
+
+.heading1 {
+    font-size: 160px;
+    font-style: italic;
+    font-weight: 800;
     color: rgb(255, 255, 255);
-    font-family:Baskerville;
-padding-left: 30px;}
-
-.heading1{
-    padding-left: 300px;
-    font-size: 80px;
-    font-style: bold;
-}
-.heading2{
-    font-size: 80px;
-    padding-left:800px;
-    font-style: bold;
-}
-.intro{
-    padding-left:30px;
+    margin: 0; 
+    padding-left: 10px; 
 }
 
-h2{font-size: 40px;}
-
-.book{text-align: center;
-font-size: 30px;}
-
-h3{font-size:30px
+.heading2 {
+    font-size: 160px;
+    font-style: italic;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    margin: 0; 
+    padding-left: 500px; 
 }
-section{padding-top: 30px;}
+/* ul{
+    background-color: #283106;
+    margin: 0;
+} */
 
-.page1{
+.intro {
+    padding-left: 260px;
+    padding-right: 50px;
+    /* font-weight: bold;  */
+    font-size: 1.2rem; 
+    /* text-align: center; */
+    max-width: 100ch;
+    /* font-family: 'Baskerville'; */
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+
+
+
+h2 {
+    font-size: 40px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+/* 书籍样式 */
+.book {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-align: right;
+}
+
+/* 小标题 h4 */
+h4 {
+    font-size: 25px;
+}
+
+/* 页面内容样式 */
+section {
+    padding: 30px 0;
+}
+
+.page1, .page3 {
     padding-left: 600px;
+    padding-right: 50px;
     max-width: 90ch;
 }
 
-.page2{
+.page2, .page4 {
     padding-left: 100px;
-    padding-right:300px;
+    padding-right: 300px;
     max-width: 90ch;
 }
 
-.page3{
-    padding-left: 600px;
-    max-width: 90ch;
-}
-.page4{
-    padding-left: 100px;
-    padding-right:300px;
-    max-width: 90ch;
-}
 
-p{
+p {
     text-indent: 50px;
+    font-size: 1.25rem; 
+    margin-bottom: 20px;
 }
+
+
+section:not(:first-child) { 
+    margin-top: 50px; 
+}
+
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #9b3e3e; 
+    text-decoration: underline;
+}
+
+h2, h3 {
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0; 
+    background-color: #777E5C; 
+    z-index: 1000; 
+    padding: 5px;
+    margin: 0; 
+  }
+  
+  h3 {
+    top: 60px;
+  }
