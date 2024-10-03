@@ -1,0 +1,13 @@
+h2, h3 {
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0; 
+    background-color: rgb(255, 228, 198); 
+    z-index: 1000; 
+    padding: 5px;
+    margin: 0; 
+  }
+  
+  h3 {
+    top: 60px;
+  }
